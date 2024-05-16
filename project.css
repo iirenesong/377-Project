@@ -1,1 +1,29 @@
+body {
+    background-color:lightcyan
+}
 
+nav {
+    background-color:royalblue;
+    text-align: center;
+    color:lightcyan;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+nav li a {
+    color:lightcyan;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color:royalblue;
+}
+
+nav li:hover {
+    background-color:lightcyan;
+}
