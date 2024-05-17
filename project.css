@@ -27,3 +27,10 @@ nav li a:hover {
 nav li:hover {
     background-color:lightcyan;
 }
+
+.job-posting {
+    background-color:white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px; 
+}
