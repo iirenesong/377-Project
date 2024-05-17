@@ -1,4 +1,4 @@
-**# Arbeitnow Job Postings**
+# Arbeitnow Job Postings
 
 ### Project Description:
 
