@@ -1,0 +1,18 @@
+{
+  "name": "supabasedatabaseppt",
+  "version": "1.0.0",
+  "description": "A supabase database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e '*'"
+  },
+  "author": "Yasmin Said",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "supabase": "^1.167.4"
+  }
+}
