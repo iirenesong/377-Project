@@ -34,3 +34,16 @@ nav li:hover {
     margin-bottom: 20px;
     padding: 10px; 
 }
+#jobInfo {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+#skillsInfo {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
