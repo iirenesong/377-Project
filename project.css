@@ -51,3 +51,25 @@ nav li:hover {
     border-color: black;
     border-style: solid;
 }
+
+#mission {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+}
+#features {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+}
+#team {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+} 
