@@ -1,25 +1,56 @@
 <html>
-    <head>
-        <title>Job Information</title>
-        <link rel="stylesheet" href="project.css">
-        <script src="job info.js"></script>
-        <script src="job skills.js"></script>
-    </head>
-    <body>
-        <h1>Job Information</h1>
-        <!-- Navigation Bar -->
-        <nav>
-            <ul>
-                <li><a href="home.html"><strong>Home</strong></a></li>
-                <li><a href="about.html"><strong>About</strong></a></li>
-                <li><a href="specific.html"><strong>Jobs</strong></a></li>
-                <li><a href="information.html"><strong>Information</strong></a></li>
-            </ul>
-        </nav>
-        <h2>Check out these interesting job facts!</h2>
-        <div id="cutoff"></div>
-        <h2>Want to learn more about job qualifications? Read some of these job positions!</h2>
-        <div id="skillsTable"></div>
-        </div>
-    </body>
+
+<head>
+    <title>Job Information</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <script src="job info.js"></script>
+    <script src="job skills.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const pages = document.querySelectorAll('.page');
+
+            pages.forEach(el => {
+
+                el.addEventListener('mouseenter', () => {
+                    anime({
+                        targets: el,
+                        rotate: {
+                            value: 360,
+                            duration: 1200,
+                            easing: 'easeInOutSine'
+                        },
+                        scale: {
+                            value: 1.2,
+                            duration: 1500,
+                            delay: 250,
+                            easing: 'easeInOutQuart'
+                        },
+                        delay: 100
+                    })
+                })
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <h1>Job Information</h1>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li class="page"><a href="home.html"><strong>Home</strong></a></li>
+            <li class="page"><a href="about.html"><strong>About</strong></a></li>
+            <li class="page"><a href="specific.html"><strong>Jobs</strong></a></li>
+            <li class="page"><a href="information.html"><strong>Information</strong></a></li>
+        </ul>
+    </nav>
+    <h2>Check out these interesting job facts!</h2>
+    <div id="cutoff"></div>
+    <h2>Want to learn more about job qualifications? Read some of these job positions!</h2>
+    <div id="skillsTable"></div>
+    </div>
+</body>
+
 </html>
