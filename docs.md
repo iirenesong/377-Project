@@ -1,6 +1,4 @@
-INST377 PROJECT - JOB FINDER 
------------------------------
-
+**JOB FINDER**
 **How to install application and all dependencies**
 
 Dependencies can be installed after installing node.js and npm install into the terminal to install npm. 
