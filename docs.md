@@ -3,8 +3,7 @@ INST377 PROJECT - JOB FINDER
 
 **How to install application and all dependencies**
 
-Dependencies can be installed after installing node.js and npm install into the terminal to install npm
-and npm init will create the package.json file. 
+Dependencies can be installed after installing node.js and npm install into the terminal to install npm. 
 
 JS libraries used include the **animejs library** and the **bootstrapjs**. 
 
