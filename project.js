@@ -36,6 +36,7 @@ function getJobs() {
             populateDropdown(tagsE, Array.from(tags));
             populateDropdown(locationE, locations);
 
+            compE.addEventListener('change', filterJobs);
             remoteCheckbox.addEventListener('change', filterJobs);
             titleE.addEventListener('change', filterJobs);
             tagsE.addEventListener('change', filterJobs);
