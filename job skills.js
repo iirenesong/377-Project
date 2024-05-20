@@ -1,5 +1,5 @@
 async function loadSkills () {
-    await fetch ('https://groupapi.vercel.app/skills')
+    await fetch ('https://377-project-two.vercel.app/skills')
         .then ((res) => res.json())
         .then ((res) => {
             console.log(res)
