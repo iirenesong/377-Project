@@ -13,7 +13,7 @@ const supabase = supabaseClient.createClient(supabaseUrl, supabaseKey)
 
 
 app.get('/',(req, res) =>{
-    res.sendFile('information.html', {root: __dirname})
+    res.sendFile('home.html', {root: __dirname})
 })
 
 app.get('/jobs', async (req, res)=> {
