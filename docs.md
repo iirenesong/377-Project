@@ -40,8 +40,5 @@ in the information page.
 
 
 **A clear set of expectations around known bugs and a road-map for future development**
-
-- Expectations around known bugs include in the information page, where the page **sometimes** need to be reloaded for the API fetch to work. 
-
 - For future development, we would consider future features like accounts for users, 
 and more interactive options like directing users to external sites to apply for the jobs. 
