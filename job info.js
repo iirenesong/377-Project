@@ -1,5 +1,5 @@
 async function loadJobData () {
-    await fetch ('https://groupapi.vercel.app/jobs')
+    await fetch ('https://377-project-two.vercel.app/jobs')
         .then ((res) => res.json())
         .then ((res) => {
             console.log(res)
