@@ -13,8 +13,7 @@ INST377 PROJECT - JOB FINDER
 
 **How to install application and all dependencies**
 
-For access to all files git clone repo to your local machine. Dependencies can be installed after installing node.js and npm install into the terminal to install npm
-and npm init will create the package.json file. 
+For access to all files git clone repo to your local machine. Dependencies can be installed after installing node.js and npm install into the terminal to install npm. 
 
 JS libraries used include the **animejs library** and the **bootstrapjs**. 
 
